@@ -1,0 +1,82 @@
+{
+  "book": {
+    "title": "The Instruction Book",
+    "author": [
+      "Brad Chesney",
+      "Tom Richner",
+      "Keith Richner"
+    ],
+    "publisher": "",
+    "copyright": "2017",
+    "ISBN-10": "",
+    "ISBN-13": "",
+    "genre": [],
+    "letter-count": "",
+    "word-count": "",
+    "page-count": "",
+    "book-in-series": "",
+    "start-page": "first-page",
+    "content": [
+      {
+        "page-name": "first-page",
+        "pieces": [
+          {
+            "type": "image",
+            "data": "base64 image string"
+          },
+          {
+            "type": "heading",
+            "data": "Stealing My First Line"
+          },
+          {
+            "type": "text",
+            "data": "It was the best of times, it was the best of times."
+          },
+          {
+            "type": "branch",
+            "data": "Get Ice Cream?",
+            "link": "ice-cream"
+          },
+          {
+            "type": "branch",
+            "data": "Get Churros?",
+            "link": "churros"
+          }
+        ]
+      },
+      {
+        "page-name": "ice-cream",
+        "pieces": [
+          {
+            "type": "text",
+            "data": "I wish I had gotten the churro."
+          },
+          {
+            "type": "branch",
+            "data": "Get Ice Cream?",
+            "link": "ice-cream"
+          },
+          {
+            "type": "branch",
+            "data": "Get Churros?",
+            "link": "churros"
+          }
+        ]
+      },
+      {
+        "page-name":"churros",
+        "pieces": [
+          {
+            "type": "text",
+	    "data": "Mmmmm... churros"
+          },
+          {
+            "type": "end",
+            "data": "optimal||good||neutral||bad||horrible"
+          }
+        ]
+      }
+    ],
+  },
+  "version":"1.0.0"
+}
